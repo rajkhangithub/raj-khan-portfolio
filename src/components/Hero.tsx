@@ -55,7 +55,7 @@ const Hero = () => {
           <div className="mb-8 relative inline-block">
             <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl mx-auto relative">
               <img
-                src="/lovable-uploads/40ffa2fc-90fc-43b0-8756-ed2fb270d79c.png"
+                src={rajProfile}
                 alt="Raj Khan - Full Stack Developer"
                 className="w-full h-full object-cover"
               />
