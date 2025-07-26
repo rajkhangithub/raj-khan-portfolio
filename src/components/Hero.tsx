@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { ChevronDown } from 'lucide-react';
-import rajProfile from '@/assets/raj-profile.jpg';
+
 
 const Hero = () => {
   const [displayText, setDisplayText] = useState('');
@@ -55,7 +55,7 @@ const Hero = () => {
           <div className="mb-8 relative inline-block">
             <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl mx-auto relative">
               <img
-                src={rajProfile}
+                src="/lovable-uploads/5a4fa77f-76d8-4f85-8d32-220681104bcb.png"
                 alt="Raj Khan - Full Stack Developer"
                 className="w-full h-full object-cover"
               />
