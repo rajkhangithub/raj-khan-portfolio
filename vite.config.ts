@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/raj-khan-portfolio/", // 👈 Add this line for GitHub Pages
+  base: "/", // Changed from GitHub Pages path to root for Netlify
   server: {
     host: "::",
     port: 8080,
